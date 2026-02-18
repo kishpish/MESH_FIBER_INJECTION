@@ -53,7 +53,7 @@ pip install numpy scipy pandas matplotlib meshio wildmeshing pymeshlab
 
 ## Configuration
 
-> **⚠️ Important:** The scripts currently use hardcoded paths (e.g., `/home/shadeform/SCD_MODELS`). 
+> **Important:** The scripts currently use hardcoded paths (e.g., `/home/shadeform/SCD_MODELS`). 
 > 
 > Before running any scripts, you **must** update the `BASE_DIR` variable in the header of the python scripts to match your local environment.
 
