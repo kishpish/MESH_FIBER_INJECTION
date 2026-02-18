@@ -54,7 +54,7 @@ pip install numpy scipy pandas matplotlib meshio wildmeshing pymeshlab
 
 ## Configuration
 
-> **⚠️ Important:** The scripts currently use hardcoded paths (e.g., `/home/shadeform/SCD_MODELS`). 
+> ** Important:** The scripts currently use hardcoded paths (e.g., `/home/shadeform/SCD_MODELS`). 
 > 
 > Before running any scripts, you **must** update the `BASE_DIR` variable in the header of the python scripts to match your local environment.
 
@@ -129,7 +129,7 @@ These scripts ingest the JSON/CSV outputs from the simulations and generate matp
 python3 simulations/analysis/Baseline_Metrics_Analysis.py
 ```
 
-## File Manifest
+## Manifest
 
 | File | Description |
 | :--- | :--- |
