@@ -27,6 +27,7 @@ graph TD
     C & D -->|febio_simulations| E[Biomechanics Results]
     C & D -->|ep_simulations| F[Electrophysiology Results]
     E & F -->|analysis| G[Clinical Metrics]
+```
 
 ## Directory Structure
 
@@ -52,7 +53,7 @@ pip install numpy scipy pandas matplotlib meshio wildmeshing pymeshlab
 
 ## Configuration
 
-> ** Important:** The scripts currently use hardcoded paths (e.g., `/home/shadeform/SCD_MODELS`). 
+> **⚠️ Important:** The scripts currently use hardcoded paths (e.g., `/home/shadeform/SCD_MODELS`). 
 > 
 > Before running any scripts, you **must** update the `BASE_DIR` variable in the header of the python scripts to match your local environment.
 
@@ -127,7 +128,7 @@ These scripts ingest the JSON/CSV outputs from the simulations and generate matp
 python3 simulations/analysis/Baseline_Metrics_Analysis.py
 ```
 
-## Manifest
+## File Manifest
 
 | File | Description |
 | :--- | :--- |
@@ -137,4 +138,3 @@ python3 simulations/analysis/Baseline_Metrics_Analysis.py
 | `injection_site.../trial_FINAL...v2.py` | FINAL Laplace-Dirichlet & Fiber generation script. |
 | `simulations/febio.../run_dynamic...py` | Main FEBio simulation runner. |
 | `simulations/ep.../complete_ep_outputs.py` | Main OpenCARP simulation runner and ECG calculator. |
-```
