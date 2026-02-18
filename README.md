@@ -1,4 +1,3 @@
-```markdown
 # SCD Cardiac Modeling & Simulation Pipeline
 
 This repository contains a complete computational pipeline for processing patient-specific cardiac geometries (SCD patients). The pipeline handles mesh generation, infarct tissue tagging, fiber reconstruction, and dual-physics simulations (Biomechanics via FEBio and Electrophysiology via OpenCARP), specifically focusing on hydrogel patch optimization.
@@ -28,7 +27,6 @@ graph TD
     C & D -->|febio_simulations| E[Biomechanics Results]
     C & D -->|ep_simulations| F[Electrophysiology Results]
     E & F -->|analysis| G[Clinical Metrics]
-```
 
 ## Directory Structure
 
